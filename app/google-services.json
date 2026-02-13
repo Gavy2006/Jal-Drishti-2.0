@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "740170726124",
+    "project_id": "jaldrishti2",
+    "storage_bucket": "jaldrishti2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740170726124:android:dec304833e0c097d31c3c9",
+        "android_client_info": {
+          "package_name": "com.example.jaldrishti20"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOmQBNOK8jeppEGKxug6jVnXbHJdFL_IM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
