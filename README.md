@@ -10,10 +10,6 @@ Care Before It Becomes Rare
 📌 What is Jal Drishti?
 India receives abundant rainfall every year — yet millions face water shortage. The problem isn't lack of water; it's poor management and wasted runoff.
 Jal Drishti is an app that helps any user — homeowner, farmer, builder, or government body — understand exactly how much rainwater their rooftop or land can harvest, how to set up the system, and what it will cost.
-> Backed by research with the **Civil Engineering department at NIT Kurukshetra**, consultations with **KUK Construction branch experts**, and a field visit to **Pabnawa village** where real harvesting systems are in use. 
-🎯 Problem Statement
-Groundwater levels across India are continuously depleting
-Most rooftop rainwater flows away unused
 People lack accessible, location-specific data to plan harvesting systems
 Rooftop Rainwater Harvesting (RWH) is government-promoted but adoption is low due to complexity
 Jal Drishti removes that barrier — making feasibility analysis instant, free, and visual.
