@@ -6,19 +6,18 @@ Care Before It Becomes Rare
 [![Platform](https://img.shields.io/badge/Platform-Web%20App-brightgreen.svg)]()
 [![Backend](https://img.shields.io/badge/Backend-Firebase%20%7C%20GEE-orange.svg)]()
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
----
+> 
 📌 What is Jal Drishti?
 India receives abundant rainfall every year — yet millions face water shortage. The problem isn't lack of water; it's poor management and wasted runoff.
 Jal Drishti is an app that helps any user — homeowner, farmer, builder, or government body — understand exactly how much rainwater their rooftop or land can harvest, how to set up the system, and what it will cost.
-> Backed by research with the **Civil Engineering department at NIT Kurukshetra**, consultations with **KUK Construction branch experts**, and a field visit to **Pabnawa village** where real harvesting systems are in use.
----
+> Backed by research with the **Civil Engineering department at NIT Kurukshetra**, consultations with **KUK Construction branch experts**, and a field visit to **Pabnawa village** where real harvesting systems are in use. 
 🎯 Problem Statement
 Groundwater levels across India are continuously depleting
 Most rooftop rainwater flows away unused
 People lack accessible, location-specific data to plan harvesting systems
 Rooftop Rainwater Harvesting (RWH) is government-promoted but adoption is low due to complexity
 Jal Drishti removes that barrier — making feasibility analysis instant, free, and visual.
----
+> 
 ✨ Key Features
 Feature	Description
 📍 Location-based Analysis	Auto-fetch rainfall & soil data for any location
@@ -31,7 +30,7 @@ Feature	Description
 🔔 WhatsApp Reminders	Maintenance alerts for filter cleaning, first-flush checks
 💰 Cost Estimator	Breakdown by house size (Small / Medium / Large)
 🏗️ Step-by-Step Setup Guide	Gutters, first-flush diverter, storage installation steps
----
+
 🧮 Core Formula
 ```
 V = A × I × K
@@ -41,7 +40,7 @@ Variable	Meaning	Example
 `A`	Catchment / Roof Area (m²)	317.12 m²
 `I`	Annual Effective Rainfall (mm)	674.2 mm
 `K`	Runoff Coefficient (0.7–0.9)	0.8 (standard RCC roof)
----
+
 👥 Target Users
 🏠 Families & individuals — reduce water bills, save at home
 🌾 Farmers — plan irrigation using harvested rainwater
@@ -49,7 +48,7 @@ Variable	Meaning	Example
 🏫 Schools & institutions — adopt as sustainability initiative
 🏗️ Builders & contractors — integrate RWH in new construction
 🏢 Corporates — CSR-driven water conservation programs
----
+
 🛠️ Tech Stack
 Layer	Technology
 Frontend	HTML / CSS / JavaScript / React
@@ -61,9 +60,9 @@ Backend / Database	Firebase (Firestore + Authentication)
 Notifications	WhatsApp API
 PDF Reports	Chart.js + jsPDF
 Hosting	Firebase Hosting
----
+
 📊 Sample Feasibility Report Output
-```
+
 Location (Lat, Lon)          : 28.4089, 77.3178
 Rooftop Rainfall (Effective) : 674.2 mm
 Roof Area                    : 317.12 m²
@@ -85,13 +84,13 @@ Large House	300 m²+	₹70,000 – ₹1,20,000+
 Cost split (approx): Filters ~20% · Storage Tank ~50% · Labor ~30%
 ---
 💼 Business Model
-```
+
 Free Tier           → Basic feasibility analysis + PDF reports
 Premium Tier        → Advanced analytics, custom reports, multi-property
 Vendor Marketplace  → Connect users with verified RWH contractors (commission)
 Govt. Licensing     → White-label solution for municipal water planning
 CSR Partnerships    → Corporate water conservation programs
-```
+
 ---
 📁 Project Structure
 ```
@@ -169,7 +168,7 @@ jaldristi-backend-*.json
 .env.local
 ```
 Store keys securely using Firebase Cloud Functions config or GitHub Actions Secrets.
----
+
 🗺️ Roadmap
 [x] Location-based rainfall & soil analysis
 [x] Capacity calculator (V = A × I × K)
@@ -183,32 +182,29 @@ Store keys securely using Firebase Cloud Functions config or GitHub Actions Secr
 [ ] Mobile app (React Native)
 [ ] Hindi & regional language support
 [ ] Government licensing portal
----
+
 🏆 Built For
 Code Slayer 2K25 Hackathon — presented by Team Code Titans
 Research supported by:
 Civil Engineering Department, NIT Kurukshetra
 Construction Branch Experts, Kurukshetra University
 Field visit: Pabnawa Village, Haryana
----
+
 🤝 Contributing
 Fork the repo
 Create a branch: `git checkout -b feature/your-feature`
 Commit: `git commit -m "Add your feature"`
 Push: `git push origin feature/your-feature`
 Open a Pull Request
----
-📄 License
-This project is licensed under the MIT License.
----
+
 👤 Author
 Manisha Dhankhar,Devika,Gavy
----
+
 🙏 Acknowledgements
 Google Earth Engine for satellite rainfall data
 Firebase for backend infrastructure
 Central Ground Water Board (CGWB) for RWH guidelines
 Ministry of Jal Shakti, Government of India
 Civil Engineering Department, NIT Kurukshetra
----
+
 > *"Jal Drishti — Care Before It Becomes Rare."*
