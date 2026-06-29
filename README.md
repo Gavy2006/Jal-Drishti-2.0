@@ -93,7 +93,7 @@ CSR Partnerships    → Corporate water conservation programs
 
 ---
 📁 Project Structure
-```
+
 Jal-Drishti-2.0/
 │
 ├── public/
@@ -119,7 +119,7 @@ Jal-Drishti-2.0/
 ├── .gitignore
 ├── package.json
 └── README.md
-```
+
 ---
 🚀 Getting Started
 Prerequisites
